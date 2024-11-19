@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+  <SHOPITEM>
+    <ITEM_ID>12345</ITEM_ID> <!-- Unique identifier for the product -->
+    <PRODUCTNAME>Product Name</PRODUCTNAME> <!-- Product's name -->
+    <PRODUCT>Category / Product Type</PRODUCT> <!-- Full product category or type -->
+    <DESCRIPTION>Product description...</DESCRIPTION> <!-- Detailed product description -->
+    <URL>https://www.example.com/product-url</URL> <!-- Link to the product on your website -->
+    <IMGURL>https://www.example.com/image-url.jpg</IMGURL> <!-- URL of the main product image -->
+    <IMGURL_ALTERNATIVE>https://www.example.com/image-url2.jpg</IMGURL_ALTERNATIVE> <!-- Additional image -->
+    <PRICE_VAT>123.45</PRICE_VAT> <!-- Price including VAT -->
+    <MANUFACTURER>Brand Name</MANUFACTURER> <!-- Manufacturer/brand of the product -->
+    <CATEGORYTEXT>Electronics | Mobile Phones</CATEGORYTEXT> <!-- Product category hierarchy -->
+    <EAN>1234567890123</EAN> <!-- EAN code (if available) -->
+    <DELIVERY_DATE>0</DELIVERY_DATE> <!-- Delivery availability code (e.g., "0" for immediate) -->
+    <!-- Optional elements -->
+    <PARAM>
+      <PARAM_NAME>Color</PARAM_NAME>
+      <VAL>Blue</VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME>Size</PARAM_NAME>
+      <VAL>Medium</VAL>
+    </PARAM>
+    <!-- Add more parameters as necessary -->
+  </SHOPITEM>
+  <!-- Add more SHOPITEM entries for other products -->
+</SHOP>
